@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link href="./assets/css/main.css" rel="stylesheet">
+</head>
+
+<body background="/assets/images/login.png">
+    <h1>Sign Up </h1>
+    <form id="login" method="POST" action="index.html" onsubmit="return ( validate() && password() && StrChecker() && phone()   );">
+        <label for="email"><b>Email</b></label>
+        <input type="text" id="email" placeholder="Enter Email" name="email"><br>
+        <center><label for="error" id="error"></label></center><br>
+        <label for="password"><b>Password</b></label>
+        <input type="password" id="pass" placeholder="Enter Password" name="Pass"><br>
+        <center><label for="error" id="errors"></label></center>
+        <label for="strength" id="str"></label><br><br>
+        <label for="number"><b>Phone Number</b></label>
+        <input type="number" id="num" placeholder="Phone Number" name="num"><br>
+        <center><label for="error" id="pherror"></label></center><br>
+        <center><button type="submit"> Sign Up</button></center>
+    </form>
+
+</body>
+<script src="./assets/js/signup.js"></script>
+
+</html>

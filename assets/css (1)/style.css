@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+}
+
+.header img {
+    margin-left: 30px;
+    height: 60px;
+}
+
+.header .nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.header .nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    padding: 8px;
+}
+
+.header .nav a:hover {
+    background-color: lavender;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.container p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family: cursive;
+    background-color: skyblue;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.district {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.box {
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+    height: 10em;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.box h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.box img {
+    height: 70%;
+    width: 100%;
+}
+
+.box a {
+    color: black;
+}
+
+.descrip h1 {
+    margin-top: 1%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.descrip p {
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.25em;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.places h3 {
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.places img {
+    margin-top: 20px;
+    margin-left: 3%;
+    height: 30%;
+    width: 30%;
+}

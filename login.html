@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+
+</head>
+
+<body background="/assets/images/login.png">
+    <h1>Login Page</h1><br>
+    <form id="login" method="POST" action="index.html" onsubmit="return (validate() && password());">
+        <label><b> Email     
+        </b>    
+        </label>
+        <input type="text" name="email" id="email" placeholder="Enter Email">
+        <label for="error" id="error"></label>
+        <br><br>
+        <label><b>Password     
+        </b>    
+        </label>
+        <input type="Password" name="Pass" id="pass" placeholder="Enter Password">
+        <label for="error" id="errors"></label><br><br>
+        <center> <button type="submit">Login</button></center>
+        <br><br>
+
+        <div class="sign">
+            <h5>Not have Account? Register Here...</h5>
+            <button type="button"><a href="/signup.html">Register</a></button>
+        </div>
+    </form>
+
+
+</body>
+<script src="/assets/js/login.js"></script>
+
+</html>
